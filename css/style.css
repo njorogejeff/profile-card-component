@@ -55,8 +55,8 @@ body {
     height: 180px;
 }
 .user__img {
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     border: 5px solid white;
     border-radius: 50%;
     position: relative;
@@ -66,11 +66,10 @@ body {
 }
 .user__description {
     margin-top: -40px;
+    width: 100%;
 }
 .user__details {
-    font-size: 24px;
-    display: flex;
-    gap: .7rem;
+    font-size: 23px;
     margin-bottom: .8rem;
 }
 .user__name {
@@ -78,11 +77,28 @@ body {
     font-weight: 700;
 }
 .user__location {
-    margin-bottom: 2rem;
+    margin-bottom: 1.8rem;
 }
 .card__divider {
-    border: 1px solid red;
+    border-bottom: 1px solid hsl(0, 0%, 59%, 0.3);
     position: absolute;
     left: 0;
     width: 100%;
+}
+.user__stats {
+    margin: 4rem 0 2.1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.count {
+    text-transform: uppercase;
+    color: var(--dark-desaturated-blue);
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+.subtitle {
+    font-size: 13px;
+    letter-spacing: 2px;
 }
