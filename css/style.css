@@ -30,6 +30,9 @@ body {
     color: var(--dark-grayish-blue);
     max-width: 480px;
     background-color: var(--dark-cyan);
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-position: right 45vw bottom 45vh, left 45vw top 45vh;
+    background-repeat: no-repeat, no-repeat;
 }
 
 /* Card Component Styles */
